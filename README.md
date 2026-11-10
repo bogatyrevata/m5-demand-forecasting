@@ -12,6 +12,9 @@ m5-demand-forecasting/
 ├── notebooks/m5_forecasting.ipynb   # pipeline completo con resultados guardados
 ├── models/lgbm_m5_ca.txt            # modelo LightGBM entrenado
 ├── reports/informe_ejecutivo.md     # informe ejecutivo
+├── docs/
+│   ├── consigna_actividad.md        # consigna original de la actividad
+│   └── guia_proyecto_ru.md          # apuntes de la autora (en ruso)
 ├── requirements.txt                 # dependencias
 ├── .gitignore
 └── README.md
@@ -71,3 +74,7 @@ LightGBM reduce el RMSE un 4,4 % frente al mejor baseline (MAE equivalente). Las
 
 ## 8. Limitaciones (Ограничения)
 Un único corte de validación, alcance reducido (CA, 414 días), sin WRMSSE y efectos de eventos basados en 1-2 observaciones por evento.
+
+## 9. Documentación adicional
+- [`docs/consigna_actividad.md`](docs/consigna_actividad.md): enunciado original de la actividad, usado como guía de la estructura del notebook (fases 1 a 4).
+- [`docs/guia_proyecto_ru.md`](docs/guia_proyecto_ru.md): apuntes personales de la autora en ruso con el resumen del proceso, decisiones, resultados y glosario. No forma parte de la entrega evaluable.
