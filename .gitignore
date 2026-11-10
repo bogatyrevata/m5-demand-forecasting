@@ -1,0 +1,20 @@
+# Окружение и кэш
+.venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Системные файлы
+.DS_Store
+
+# Секреты
+.env
+*.key
+kaggle.json
+
+# Данные: файлы не коммитим, источник описан в data/README.md
+*.csv, *.parquet
+data/raw/ 
+data/processed/
+data/sample/
+ 
